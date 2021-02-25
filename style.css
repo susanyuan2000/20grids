@@ -1,0 +1,228 @@
+.container{
+	display: grid;
+	background-color: black;
+	padding: 2em;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(200px,auto);
+	grid-gap: 1em; 
+	align-items: stretch;
+	justify-items: stretch;
+	font-family: 'DotGothic16', sans-serif;
+	color:yellow;
+  }
+
+.item1{
+	background-color:yellow;
+	text-shadow: black;
+	color:black;
+	grid-column: 1/5;
+	font-size: 22px;
+	text-align:center;
+	border:yellow;
+	border-style: groove;
+}
+
+.item2{
+	background-color:black;
+	grid-row:auto;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+	
+}
+.item3{
+	background-color:black;
+	color:white;
+	grid-row: 2/4;
+	text-align: center;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+	background-image: url(https://art.pixilart.com/40bb70aae22fb94.png);
+	background-size: cover;
+	border-image-repeat: no-repeat;
+	background-position: left;
+	font-weight:bold;
+	
+
+}
+.item4{
+	background-color:black;
+	color:yellow;
+	grid-column: auto;
+	text-align: center;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+
+}
+.item5{
+	background-color:black;
+	text-align: center;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+	background-image: url(https://ak.picdn.net/shutterstock/videos/1012898381/thumb/1.jpg);
+	background-size: contain;
+	background-position: bottom;
+	font-weight:bold;
+	
+	
+  
+}
+.item6{
+	background-color:black;
+	grid-column: 3/5;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+
+
+
+
+}
+.item7{
+	background-color:black;
+	grid-row:3/5;
+	background-position: center;
+	background-size: 20em;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 1em;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+	background-image: url(https://fsb.zobj.net/crop.php?r=JiJm1BVX8a259nOa9NmD85Sbd0ZfsR2DgfoLtXgnGcwZcJM8Czkv-1Q0OueFpm7u0QY01BYT30yUDi3ETwn8nMd_JcFX6OY948bT2LAr20_T813_1T6HpiPBATvqxgtuXpl3_Bvmia19UtD6);
+	border-image-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	background-blend-mode:inherit;
+
+
+
+}
+.item8{
+	background-color:black;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+}
+.item9{
+	background-color:black;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+}
+.item10{
+	background-color:black;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+}
+.item11{
+	background-color:black;
+	grid-column:1/3;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+	background-image: url(https://www.wallpaperflare.com/static/441/801/217/pixel-art-pixels-pokemon-go-pok%C3%A9mon-wallpaper-thumb.jpg);
+	background-position: right;
+	font-weight:bold;
+
+}
+
+.item12{
+	background-color:black;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+}
+.item13{
+	background-color:black;
+	grid-column:4/5 ;
+	grid-row: 5/7;
+	background-image: url(https://www.wallpapertip.com/wmimgs/3-33266_pikachu-pixel-art.jpg);
+	border-image-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+
+}
+.item14{
+	background-color:black;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+}
+.item15{
+	background-color:black;
+	grid-template-rows: end;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+
+	
+}
+.item16{
+	background-color:black;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+	background-image: url(https://cdn.dribbble.com/users/140000/screenshots/4849136/svg-watermelon-800x600.png);
+	background-size: cover;
+	border-image-repeat: no-repeat;
+	background-position: left;
+	font-weight:bold;
+
+}
+.item17{
+	background-color:black;
+	grid-row: 7/9;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+	background-image: url(https://art.pixilart.com/d9a597fded1f8e6.png);
+	border-image-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+
+
+}
+.item18{
+	background-color:black;
+	grid-column: 2/4;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+}
+.item19{
+	background-color:black;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+}
+.item20{
+	background-color:black;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+}
+.item21{
+	background-color:black;
+	color:white;
+	grid-column: 3/5;
+	border:yellow;
+	border-style: groove;
+	text-align: center;
+	background-image: url(https://art.pixilart.com/061663b23dd506a.png);
+	border-image-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	font-weight:bold;
+
+
+
+
+}
